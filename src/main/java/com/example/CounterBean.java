@@ -33,6 +33,6 @@ public class CounterBean {
     @Scheduled(cron = "{cron.expr}")
     void cronJobWithExpressionInConfig() {
         counter.incrementAndGet();
-        System.out.println("Cron expression configured in application.properties");
+        //System.out.println("Cron expression configured in application.properties");
     }
 }
